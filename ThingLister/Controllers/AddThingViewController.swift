@@ -113,6 +113,4 @@ class AddThingViewController: UIViewController, UIImagePickerControllerDelegate 
         
         return true
     }
-    
-    textV
 }
