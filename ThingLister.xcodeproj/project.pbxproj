@@ -14,6 +14,16 @@
 		DCC7582D268575AD00019913 /* ThingLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCC7582B268575AD00019913 /* ThingLister.xcdatamodeld */; };
 		DCC7582F268575AF00019913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC7582E268575AF00019913 /* Assets.xcassets */; };
 		DCC75832268575AF00019913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC75830268575AF00019913 /* LaunchScreen.storyboard */; };
+		DCC7583B2685779800019913 /* ModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7583A2685779800019913 /* ModelService.swift */; };
+		DCC7583E26857D6E00019913 /* ThingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7583D26857D6E00019913 /* ThingCell.swift */; };
+		DCC7584126857FD700019913 /* Thing+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7584026857FD700019913 /* Thing+Extensions.swift */; };
+		DCC7584326896E1800019913 /* AddCarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC7584226896E1800019913 /* AddCarView.storyboard */; };
+		DCC75846268972E000019913 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC75845268972E000019913 /* AddCarViewController.swift */; };
+		DCC7584826897BCE00019913 /* AddThingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7584726897BCE00019913 /* AddThingViewController.swift */; };
+		DCC7584A2689832200019913 /* AddAnimalView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC758492689832200019913 /* AddAnimalView.storyboard */; };
+		DCC7584C2689833D00019913 /* AddBookView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC7584B2689833D00019913 /* AddBookView.storyboard */; };
+		DCC7584F2689854C00019913 /* AddAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7584D2689854C00019913 /* AddAnimalViewController.swift */; };
+		DCC758502689854C00019913 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7584E2689854C00019913 /* AddBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		DCC7582E268575AF00019913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC75831268575AF00019913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC75833268575AF00019913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC7583A2685779800019913 /* ModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelService.swift; sourceTree = "<group>"; };
+		DCC7583D26857D6E00019913 /* ThingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingCell.swift; sourceTree = "<group>"; };
+		DCC7584026857FD700019913 /* Thing+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thing+Extensions.swift"; sourceTree = "<group>"; };
+		DCC7584226896E1800019913 /* AddCarView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddCarView.storyboard; sourceTree = "<group>"; };
+		DCC75845268972E000019913 /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		DCC7584726897BCE00019913 /* AddThingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThingViewController.swift; sourceTree = "<group>"; };
+		DCC758492689832200019913 /* AddAnimalView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddAnimalView.storyboard; sourceTree = "<group>"; };
+		DCC7584B2689833D00019913 /* AddBookView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddBookView.storyboard; sourceTree = "<group>"; };
+		DCC7584D2689854C00019913 /* AddAnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAnimalViewController.swift; sourceTree = "<group>"; };
+		DCC7584E2689854C00019913 /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,58 @@
 		DCC75821268575AD00019913 /* ThingLister */ = {
 			isa = PBXGroup;
 			children = (
+				DCC7583F26857FB900019913 /* Models */,
+				DCC7583C26857D4E00019913 /* Views */,
+				DCC75844268972BB00019913 /* Controllers */,
+				DCC758392685778900019913 /* Services */,
 				DCC75822268575AD00019913 /* AppDelegate.swift */,
 				DCC75824268575AD00019913 /* SceneDelegate.swift */,
-				DCC75826268575AD00019913 /* ViewController.swift */,
-				DCC75828268575AD00019913 /* Main.storyboard */,
 				DCC7582E268575AF00019913 /* Assets.xcassets */,
-				DCC75830268575AF00019913 /* LaunchScreen.storyboard */,
 				DCC75833268575AF00019913 /* Info.plist */,
-				DCC7582B268575AD00019913 /* ThingLister.xcdatamodeld */,
 			);
 			path = ThingLister;
+			sourceTree = "<group>";
+		};
+		DCC758392685778900019913 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCC7583A2685779800019913 /* ModelService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCC7583C26857D4E00019913 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCC7583D26857D6E00019913 /* ThingCell.swift */,
+				DCC75830268575AF00019913 /* LaunchScreen.storyboard */,
+				DCC75828268575AD00019913 /* Main.storyboard */,
+				DCC758492689832200019913 /* AddAnimalView.storyboard */,
+				DCC7584B2689833D00019913 /* AddBookView.storyboard */,
+				DCC7584226896E1800019913 /* AddCarView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCC7583F26857FB900019913 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCC7582B268575AD00019913 /* ThingLister.xcdatamodeld */,
+				DCC7584026857FD700019913 /* Thing+Extensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCC75844268972BB00019913 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC75826268575AD00019913 /* ViewController.swift */,
+				DCC7584726897BCE00019913 /* AddThingViewController.swift */,
+				DCC7584D2689854C00019913 /* AddAnimalViewController.swift */,
+				DCC7584E2689854C00019913 /* AddBookViewController.swift */,
+				DCC75845268972E000019913 /* AddCarViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +189,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC7584C2689833D00019913 /* AddBookView.storyboard in Resources */,
 				DCC75832268575AF00019913 /* LaunchScreen.storyboard in Resources */,
 				DCC7582F268575AF00019913 /* Assets.xcassets in Resources */,
+				DCC7584326896E1800019913 /* AddCarView.storyboard in Resources */,
 				DCC7582A268575AD00019913 /* Main.storyboard in Resources */,
+				DCC7584A2689832200019913 /* AddAnimalView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +208,14 @@
 				DCC75827268575AD00019913 /* ViewController.swift in Sources */,
 				DCC7582D268575AD00019913 /* ThingLister.xcdatamodeld in Sources */,
 				DCC75823268575AD00019913 /* AppDelegate.swift in Sources */,
+				DCC758502689854C00019913 /* AddBookViewController.swift in Sources */,
+				DCC7584826897BCE00019913 /* AddThingViewController.swift in Sources */,
+				DCC7584F2689854C00019913 /* AddAnimalViewController.swift in Sources */,
+				DCC75846268972E000019913 /* AddCarViewController.swift in Sources */,
 				DCC75825268575AD00019913 /* SceneDelegate.swift in Sources */,
+				DCC7584126857FD700019913 /* Thing+Extensions.swift in Sources */,
+				DCC7583E26857D6E00019913 /* ThingCell.swift in Sources */,
+				DCC7583B2685779800019913 /* ModelService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.movemedical.ThingLister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.movemedical.ThingLister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
